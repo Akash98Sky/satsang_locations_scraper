@@ -23,10 +23,12 @@ def write_file(file_name: str, content: Any):
 
 
 def parse_dist_kendras(contents: List):
-    kendra = {'name': contents[0].text.strip() }
+    kendra: Dict[str, str] = {}
 
-    for i in range(1, len(contents)):
-        if contents[i].text.strip() == 'Account:':
+    for i in range(0, len(contents)):
+        if contents[i].get('style') == 'clear:both;  text-align:left; font-weight:bolder; font-size:24px;':
+            kendra['name']= contents[i].text.strip()
+        elif contents[i].text.strip() == 'Account:':
             kendra['account'] = contents[i+1].text.strip()
         elif contents[i].text.strip() == 'Established:':
             kendra['estd'] = contents[i+1].text.strip()
@@ -107,6 +109,7 @@ def main():
 
         for state in state_json:
             id = state['id']
+                
             state_dists_page = requests.get(base_url + '/index.php?p=locator&state=' + id)
 
             if(page.status_code == 200):
