@@ -1,0 +1,82 @@
+[
+	{
+		"id": 54,
+		"name": "BONGAIGAON"
+	},
+	{
+		"id": 603,
+		"name": "ALIPURDUAR"
+	},
+	{
+		"id": 604,
+		"name": "COOCH BEHAR"
+	},
+	{
+		"id": 605,
+		"name": "DAKSHIN DINAJPUR"
+	},
+	{
+		"id": 606,
+		"name": "DARJEELING"
+	},
+	{
+		"id": 607,
+		"name": "HOOGHLY"
+	},
+	{
+		"id": 608,
+		"name": "HOWRAH"
+	},
+	{
+		"id": 609,
+		"name": "JALPAIGURI"
+	},
+	{
+		"id": 610,
+		"name": "KOLKATA"
+	},
+	{
+		"id": 611,
+		"name": "MALDAH"
+	},
+	{
+		"id": 612,
+		"name": "MURSHIDABAD"
+	},
+	{
+		"id": 613,
+		"name": "NADIA"
+	},
+	{
+		"id": 614,
+		"name": "NORTH 24 PARGANAS"
+	},
+	{
+		"id": 615,
+		"name": "SOUTH 24 PARGANAS"
+	},
+	{
+		"id": 616,
+		"name": "UTTAR DINAJPUR"
+	},
+	{
+		"id": 617,
+		"name": "BANKURA"
+	},
+	{
+		"id": 619,
+		"name": "BIRBHUM"
+	},
+	{
+		"id": 620,
+		"name": "PASCHIM MEDINIPUR"
+	},
+	{
+		"id": 621,
+		"name": "PURBA MEDINIPUR"
+	},
+	{
+		"id": 622,
+		"name": "PURULIYA"
+	}
+]

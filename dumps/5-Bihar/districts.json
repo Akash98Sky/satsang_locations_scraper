@@ -1,0 +1,50 @@
+[
+	{
+		"id": 61,
+		"name": "ARARIA"
+	},
+	{
+		"id": 63,
+		"name": "BHAGALPUR"
+	},
+	{
+		"id": 64,
+		"name": "KATIHAR"
+	},
+	{
+		"id": 69,
+		"name": "SUPAUL"
+	},
+	{
+		"id": 70,
+		"name": "BEGUSARAI"
+	},
+	{
+		"id": 71,
+		"name": "DARBHANGA"
+	},
+	{
+		"id": 724,
+		"name": "CHHAPRA"
+	},
+	{
+		"id": 75,
+		"name": "MADHUBANI"
+	},
+	{
+		"id": 77,
+		"name": "MUZAFFARPUR"
+	},
+	{
+		"id": 80,
+		"name": "PATNA"
+	},
+	{
+		"id": 95,
+		"name": "PASCHIM CHAMPARAN"
+	},
+	{
+		"id": 99,
+		"name": "SIWAN"
+	}
+]
